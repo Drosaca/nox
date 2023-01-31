@@ -21,7 +21,8 @@ the screen id is a number between 0 and the number of monitors connected
 ```ps
 
 $toclose = 1
-mkdir $Env:Appdata\nox;cp nox.exe $Env:Appdata\nox;
+mkdir $Env:Appdata\nox;
+cp nox.exe $Env:Appdata\nox;
 $WshShell = New-Object -comObject WScript.Shell;
 $Shortcut = $WshShell.CreateShortcut("$Env:Appdata\Microsoft\Windows\Start Menu\Programs\Startup\nox.lnk" );
 $Shortcut.TargetPath = "$Env:Appdata\nox\nox.exe";

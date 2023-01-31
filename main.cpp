@@ -83,12 +83,18 @@ void wait_for_shutdown() {
 
 int main(int ac, char **av) {
     for (int i = 1; i < ac; i++) {
+        std::cout << av[i] <<std::endl;
         try {
             toClose.push_back(std::stoi(av[i]));
+            std::cout << "will close monitor:" <<std::stoi(av[i]) <<std::endl;
         } catch (std::exception &e) {
             continue;
         }
     }
+    HWND window;
+    AllocConsole();
+    window = FindWindowA("ConsoleWindowClass", NULL);
+    ShowWindow(window, 0);
     wait_for_shutdown();
     return 0;
 }
