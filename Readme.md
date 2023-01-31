@@ -2,7 +2,22 @@
 
 Simple program that detects when windows will shutdown and turn off your display 
 
+### Usage
+
+```ps
+nox.exe [screen_id] [screen_id] ...
+```
+the screen_id is a number between 0 and the number of monitors connected
+
+note: if no arguments are provided to the program all monitors will be powered off
+
+## Run on startup
 to run the program on startup you can write this on powershell
+
+`$toclose` contains monitors ids that will be powered off 
+
+the screen id is a number between 0 and the number of monitors connected
+
 ```ps
 
 $toclose = 1
@@ -13,3 +28,5 @@ $Shortcut.TargetPath = "$Env:Appdata\nox\nox.exe";
 $Shortcut.Arguments = $toclose
 $Shortcut.Save();
 ```
+
+note: if no arguments are provided to the program all monitors will be powered off 
