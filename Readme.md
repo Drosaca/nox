@@ -3,8 +3,7 @@
 
 Simple program that detects when windows will shutdown and turn off your display 
 #### Motivation
-The displays are in sleep mode when the computer is off but my monitor blinks and emits way too much light in sleep mode, 
-and I am too lazy to push the power button
+The displays are in sleep mode when the computer is off but my monitor blinks and emits way too much light in sleep mode. I am also too lazy to push the power button
 
 ### Usage
 
