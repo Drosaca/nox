@@ -1,4 +1,5 @@
 ## NOX
+![](https://i.pinimg.com/originals/ec/55/c3/ec55c3048bb0562ef0bf64f7b8dff097.gif)
 
 Simple program that detects when windows will shutdown and turn off your display 
 #### Motivation
