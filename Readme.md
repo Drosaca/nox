@@ -7,7 +7,7 @@ and I am too lazy to push the power button
 
 ### Usage
 
-note1: the program will obviously act like a deamon to monitor the shutdown event and hides the terminal so check if nox.exe is present on the process manager list its working 
+note1: the program will obviously act like a deamon to monitor the shutdown event and hides the terminal. So if nox.exe is present on the process manager list it means that the program is working 
 
 ```ps
 nox.exe [screen_id] [screen_id] ...
