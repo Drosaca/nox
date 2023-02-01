@@ -7,12 +7,14 @@ and I am too lazy to push the power button
 
 ### Usage
 
+note1: the program will obviously act like a deamon to monitor the shutdown event and hides the terminal so check if nox.exe is present on the process manager list its working 
+
 ```ps
 nox.exe [screen_id] [screen_id] ...
 ```
 the screen_id is a number between 0 and the number of monitors connected
 
-note: if no arguments are provided to the program all monitors will be powered off
+note2: if no arguments are provided to the program all monitors will be powered off
 
 ## Run on startup
 to run the program on startup you can write this on powershell
