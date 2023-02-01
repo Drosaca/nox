@@ -22,7 +22,6 @@ to run the program on startup you can write this on powershell
 
 `$toclose` contains monitors ids that will be powered off, (the arguments of nox.exe) 
 
-the `screen_id` is a number between 0 and the number of monitors connected
 
 ```ps
 
